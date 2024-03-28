@@ -1,0 +1,27 @@
+{
+  "name": "digitalflex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node evaluateUrls.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.0",
+    "axios": "^1.6.0",
+    "btoa": "^1.2.1",
+    "dotenv": "^16.4.4",
+    "googleapis": "^134.0.0",
+    "lighthouse": "^11.5.0",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.9.13",
+    "puppeteer": "^22.1.0",
+    "xmldom": "^0.6.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}
