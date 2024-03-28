@@ -94,7 +94,6 @@ import fetch from "node-fetch";
   }
   await browser.close();
   if (reportResults) {
-    console.log("My Results", reportResults.categories);
     await zipDirectory("results", "results.zip");
     const reportLink = await uploadFile();
     await sendEmail(reportLink, reportResults.categories);
