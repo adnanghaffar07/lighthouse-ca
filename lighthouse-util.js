@@ -149,15 +149,15 @@ export const sendEmail = async (reportLink, reportResults) => {
     
     <h4><strong>Performance: ${
       reportResults.performance.score * 100
-    }</strong></h4>   
+    }%</strong></h4>   
     <h4><strong>Accessibility: ${
       reportResults.accessibility.score * 100
-    }</strong></h4>   
+    }%</strong></h4>   
     <h4><strong>Best Practices: ${
       reportResults['best-practices'].score * 100
-    }</strong></h4>   
-    <h4><strong>SEO: ${reportResults.seo.score * 100}</strong></h4>   
-    <h4><strong>PWA: ${reportResults.pwa.score * 100}</strong></h4>
+    }%</strong></h4>   
+    <h4><strong>SEO: ${reportResults.seo.score * 100}%</strong></h4>   
+    <h4><strong>PWA: ${reportResults.pwa.score * 100}%</strong></h4>
     <h3>\nReport Link is Attached Below</h3>   
         <a href="${reportLink}">
         <strong>Report Link</strong>
